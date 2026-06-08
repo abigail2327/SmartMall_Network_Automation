@@ -1,0 +1,36 @@
+# Environment — NEVER commit this
+.env
+
+# Runtime state (auto-generated at runtime)
+topology.json
+tenants.json
+intent.json
+configs.json
+deployment_log.json
+validation_report.json
+correction_log.json
+overrides.json
+schedule.json
+router_links.json
+
+# Logs
+*.log
+logs/
+backups/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+venv/
+.venv/
+env/
+*.egg-info/
+dist/
+build/
+
+# IDE
+.vscode/
+.idea/
+*.swp
